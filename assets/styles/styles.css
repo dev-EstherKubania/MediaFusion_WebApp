@@ -1,0 +1,209 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Hero Section */
+.home {
+    background: url('/assets/images/hero-background.jpeg') center/cover no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    opacity: 2.5;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e05a00;
+}
+
+/* Featured Content Section */
+.featured-content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.featured-item {
+    margin-bottom: 20px;
+}
+
+.featured-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-item h3 {
+    margin: 10px 0;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.about-us p {
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.contact p {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info,
+.footer-links,
+.social-media {
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-cta {
+    text-align: center;
+}
+
+.footer-cta h2 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+    background-color: #e05a00;
+}
+
+
+/* Responsive to screens */
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 5px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info,
+    .footer-links,
+    .footer-cta {
+        margin-bottom: 15px;
+    }
+}
