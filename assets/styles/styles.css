@@ -35,7 +35,7 @@ a {
 
 /* Hero Section */
 .home {
-    background: url('/assets/images/hero-background.jpeg') center/cover no-repeat;
+    background: url('/assets/images/hero-background.jpg') center/cover no-repeat;
     height: 600px;
     display: flex;
     align-items: center;
